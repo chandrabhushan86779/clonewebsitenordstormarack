@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+/* background-color: aquamarine; */
+margin-left: 2vw;
+margin-right: 2vw;
+
+}
+.mainPage{
+   display: block;
+   width: 95vw;
+
+}
+.logo{
+    padding-top: 0;
+    padding-left: 10px;
+    width: 8vw;
+
+    float: left;
+}
+.container{
+    margin-top: 30px;
+    height: 14vh;
+}
+.SearchContainer{
+    border: 1px solid gray;
+    margin-left: 25vw;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    width: 45vw;
+    height: 24px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center ;
+   
+}
+
+.searchIcon{
+    height: 4vh;
+    float: left;
+}
+.SearchContainer > input{
+    flex: 1;
+    height: 4vh;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: large;
+}
+.signin{
+    margin-top: -30px;
+    margin-right: 5%;
+    float: right;
+    display:flex ;
+    font-size: large;
+    
+}
+ul{
+    list-style: none;
+    height: 5vh;
+    border-top: 1px solid grey;
+}
+li{
+    float: left;
+    padding: 1.8vw;
+    font-size: larger;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: underline solid red;
+    text-decoration-thickness: 2px;
+}
+li a:active{
+    color: blue;
+}
+
+.phrase{
+    font-family: Brandon Text,Arial,sans-serif;
+    color: #393939;
+    text-align: center;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    margin-top: 1vh;
+    left: 35vw;
+   
+}
+.signInButton a{
+    text-decoration: none;
+    display: block;
+    color: blue;
+
+}
+.signInButton:hover{
+    background-color: blue;
+    display: block;
+    color: white;
+    
+}
+.signInButton {
+    display: block;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+    margin-left: 40%;
+    margin-top: 2%;
+  border: 1px solid black;
+    height: 5vh;
+    width: 20vw;
+    text-decoration: none;
+  }
+.saleOff{
+    display: block;
+    width: 100%;
+    margin-top: 6px;
+}
+.seventypercentoff{
+    width: 100%;
+}
+.offTextContainer{
+    float: right;
+    margin-top: -10%;
+    width: auto;
+}
+.offText1{
+    color: white;
+    width: auto;
+    font-size: 25px;
+    display: block;
+    position: relative;   
+    
+}
+.offText2{
+    color: white;
+    font-size: larger;
+    width: 35rem;
+    display: block;
+    position: relative;
+    padding-top: 2%;
+   
+}
+.offText3{
+    font-size: 17px;
+    width: auto;
+    display: block;
+    position: relative;
+    padding-top: 3%;
+    padding-left: 0;
+   
+}
+.offText3 a{
+    color: white;
+    text-decoration: underline 1px solid white;
+}
+.offText3 a:hover{
+    color: white;
+    text-decoration: underline 2px solid white;
+}
+.offText3 a:active{
+    color: white;
+    text-decoration: underline 3px solid white;
+}
+.img{
+    width: 95vw;
+    height: 110vh;
+}
+.imageSlideBox{
+    height: 92vh;
+    position: relative;
+    overflow: hidden;
+}
+#slider{
+    display: flex;
+    position: relative;
+    left: 0;
+    margin: 0;
+}
+#slider >img{
+    width: 33%;
+
+}
+.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.indicators span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:gainsboro;
+    cursor: pointer;
+    position: relative;
+    
+}
+.indicators span img{
+    width: 40vw;
+}
+.active{
+    display: inline-block;
+    background-color: red;
+    border-radius: 15%;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+.foot1{
+    margin-top: 2%;
+    width: 25%;
+    height: 8vh;
+    float: left;
+    padding: 3%;
+}
+.foot1 ul{
+    margin: 0;
+    padding: 0%;
+}
+.foot1 ul li{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+.foot1 img{
+    width: 20%;
+    margin-top: 15px;
+    padding: 0;
+}
+.socialNetwork{
+    margin-top: 2%;
+    width: 25%;
+    height: 8vh;
+    float: right;
+    padding: 3%;
+}
+.socialNetwork img{
+    padding-right: 5px;
+    padding-top: 10px;
+    width: 2rem;
+}
+.help{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+   
+    float: right;
+    left: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: -30%;
+    display: inline-block;
+    position: static;
+    
+}
+.helpIcon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    display: flex;
+    position: sticky;
+   
+}
+.dressContainer{
+  
+    margin-top: 3%;
+    width: 100%;
+    height: 65vh;
+}
+.dresscont1{
+    margin-left: 2%;
+    width: 20%;
+    height: 65vh;
+    display: inline-block;
+}
+.detail1{
+    /* padding-top: 3%; */
+    font-size: larger;
+    text-align: center;
+}
+.detail1 a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.detail1 a:hover{
+    font-size: 1.1rem;
+    text-decoration: underline;
+    color: blue;
+    
+}
+.detail2{
+    font-size: larger;
+    text-align: center;
+}
+
+
+.dresscont2{
+
+    margin-left: 5%;
+    width: 20%;
+    height: 65vh;
+    display: inline-block;
+}
+.dresscont3{
+    margin-left: 5%;
+    width: 20%;
+    height: 65vh;
+    display: inline-block;
+}
+
+.dress1{
+    width: 100%;
+    height: 50vh;
+}
+.dresscont4{
+    margin-left: 5%;
+    width: 20%;
+    height: 65vh;
+    display: inline-block;
+}
+.shoeContainer{
+    margin-top: 2%;
+    width: 100%;
+    height: 75vh;
+}
+.shoeContainer h2{
+    text-align: center;
+    font-size: xx-large;
+
+}
+.shoecont1{
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 32%;
+    height: 65vh;
+    display: inline-block;
+}
+.shoes{
+    width: 100%;
+    height: 50vh;
+}
+.shoecont2{
+    margin-left: 0.5%;
+    margin-top: 2%;
+    width: 32%;
+    height: 65vh;
+    display: inline-block;
+}
+.shoecont3{
+    margin-left: 0.5%;
+    margin-top: 2%;
+    width: 32%;
+    height: 65vh;
+    display: inline-block;
+    margin-right: 0%;
+}
+footer{
+    width: 100%;
+}
+.helpline{
+    display: inline-block;
+    color: rgba(110, 12, 12, 0.842);
+    width: 100%;
+    font-size: 1.2rem;
+}
